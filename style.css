@@ -29,11 +29,11 @@ body {
   background: linear-gradient(transparent,#0033ff);
 }
 
-.navbar-custom {
+/* .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: rgb(7, 7, 7, 0.582);
-}
+} */
 
 .home {
   padding-top: 15%;
@@ -147,82 +147,6 @@ body.dark {
 
 .fa-sun {
   color: #f39c12;
-}
-
-@media screen and (max-width: 550px) {
-  .navbar-brand {
-    padding-top: 0px;
-    padding-bottom: 0px
-  }
-
-  .home .container{
-    margin-top: 120px;
-  }
-
-  .home-heading-main {
-    font-size: 3rem;
-    margin-top: 50px;
-    font-weight: bold;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-    color: #fff;
-  }
-
-  header.home .home-heading {
-    font-size: 1.3rem;
-    font-weight: bold;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
-    color: #fff;
-    letter-spacing: 1.5px;
-  }
-
-  #button-text {
-    font-size: 12px;
-  }
-
-  .label {
-    background-color: #111;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    position: relative;
-    height: 15px;
-    width: 25px;
-    transform: scale(1.5);
-  }
-
-  .label .ball {
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 10px;
-    width: 10px;
-    transform: translateX(0px);
-    transition: transform 0.2s linear;
-  }
-
-  .checkbox:checked+.label .ball {
-    transform: translateX(10px);
-  }
-
-  .fa-moon {
-  visibility: hidden;
-  }
-
-  .fa-sun {
-  visibility: hidden;
-  }
-
-  .home .typing-text{
-    font-size: 1.1rem;
-  }
-
 }
 
 /*Dark mode*/
@@ -458,6 +382,93 @@ body.dark {
   transform: translateY(0);
   transition-delay: 0.9s
 }
+
+.img-fluid{
+  height: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar-brand {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .navbar-brand #navlogo{
+    margin-right : 35px;
+  }
+  .home .container{
+    margin-top: 120px;
+  }
+
+  .home-heading-main {
+    font-size: 3rem;
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+
+  header.home .home-heading {
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+
+  #button-text {
+    font-size: 12px;
+  }
+
+  .label {
+    background-color: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 15px;
+    width: 25px;
+    transform: scale(1.5);
+  }
+
+  .label .ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 10px;
+    width: 10px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+  }
+
+  .checkbox:checked+.label .ball {
+    transform: translateX(10px);
+  }
+
+  .fa-moon {
+  visibility: hidden;
+  }
+
+  .fa-sun {
+  visibility: hidden;
+  }
+
+  .home .typing-text{
+    font-size: 1.1rem;
+  }
+
+  .img-fluid{
+    height: 350px;
+  }
+
+}
+
 
 /* End of Team Section*/
 
