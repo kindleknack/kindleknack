@@ -238,11 +238,19 @@ body.dark {
   padding: 10px 0 0 0;
 }
 
+.about .icon-boxes p{
+  color: grey;
+}
+
 .about .icon-boxes h3 {
   font-size: 35px;
   font-weight: bold;
   color: red;
   margin-bottom: 15px;
+}
+
+.about #contact-link{
+  color: red;
 }
 
 .about .icon-box {
@@ -464,9 +472,14 @@ body.dark {
   }
 
   .img-fluid{
-    height: 350px;
+    height: 400px;
   }
 
+}
+
+/*Subscribe to recieve updates*/
+#subs-heading{
+  color: red;
 }
 
 
