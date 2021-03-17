@@ -5,7 +5,7 @@ chk.addEventListener('change', () => {
 });
 
 var typed = new Typed(".typing",{
-	strings:["Actor.","Artist.","Blogger.","Coder.","Content Writer.","Dancer.","Digital Marketer.","Editor.","Designer.","Model.","Musician.","Photographer.","Speaker."],
+	strings:["Actors.","Artists.","Bloggers.","Coders.","Content Writers.","Dancers.","Digital Marketers.","Editors.","Designers.","Models.","Musicians.","Photographers.","Speakers."],
 	typeSpeed:100,
 	backSpeed:60,
 	loop:true
