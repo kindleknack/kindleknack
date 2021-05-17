@@ -37,7 +37,7 @@ body {
   height: 100vh;
   text-align: center;
   color: #000;
-  background-image: url("images/anim.gif");
+  background-image: url("images/home.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -396,10 +396,10 @@ body.dark {
     padding-bottom: 0px;
   }
   .navbar-brand #navlogo{
-    margin-right :60px;
+    margin-right :50px;
   }
   .home{
-    padding-top: 65%;
+    padding-top: 50px;
   }
 
   .home-heading-main {
