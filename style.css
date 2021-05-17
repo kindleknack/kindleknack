@@ -390,16 +390,16 @@ body.dark {
   height: 100%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .navbar-brand {
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .navbar-brand #navlogo{
-    margin-right : 35px;
+    margin-right :60px;
   }
-  .home .container{
-    margin-top: 40%;
+  .home{
+    padding-top: 65%;
   }
 
   .home-heading-main {
