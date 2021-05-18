@@ -31,7 +31,7 @@ body {
 
 
 .home {
-  padding-top: 15%;
+  padding-top: 12%;
   padding-bottom: 6rem;
   widht: 60vh;
   height: 100vh;
@@ -95,10 +95,32 @@ header.home .home-heading {
 #dark-switch{
   margin-left: 20px;
   margin-top: 20px;
+  display: flex;
 }
 
 body.dark {
   background: #000;
+}
+
+#dark-switch .heading {
+  margin-bottom: 50px;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+#dark-switch .heading h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color:red;
+}
+
+#dark-switch .heading h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color:grey;
 }
 
 .checkbox {
@@ -144,7 +166,125 @@ body.dark {
   color: #f39c12;
 }
 
-/*Dark mode*/
+
+
+
+/*-----------------CORE -------------------------*/
+#core .thumbnail img {
+   max-width:80%;
+   align-items: center;
+   border-radius: 50%;
+}
+
+#core .thumbnail{
+  margin-top: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+#core .thumbnail a {
+    -webkit-transition: all 150ms ease;
+	-moz-transition: all 150ms ease;
+	-ms-transition: all 150ms ease;
+	-o-transition: all 150ms ease;
+	transition: all 150ms ease;
+	}
+
+#core .thumbnail a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50); /* IE7 */
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+#core{
+    border-top:0;
+    background:#c4e17f;
+    background-image:-webkit-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-moz-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:-o-linear-gradient(left,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4);background-image:linear-gradient(to right,#c4e17f,#c4e17f 12.5%,#f7fdca 12.5%,#f7fdca 25%,#fecf71 25%,#fecf71 37.5%,#f0776c 37.5%,#f0776c 50%,#db9dbe 50%,#db9dbe 62.5%,#c49cde 62.5%,#c49cde 75%,#669ae1 75%,#669ae1 87.5%,#62c2e4 87.5%,#62c2e4)
+}
+
+#core .thumbnails li> .fff .caption {
+    text-align: center;
+    align-items: center;
+    padding:10px
+}
+
+/* Page Header */
+#core .page-header {
+    background: #f9f9f9;
+    margin: -30px -40px 40px;
+    padding: 20px 40px;
+    border-top: 4px solid #ccc;
+    color: #999;
+    text-transform: uppercase;
+}
+
+#core .page-header h3 {
+    line-height: 0.88rem;
+    color: #000;
+}
+
+#core .thumbnails ul{
+    margin-bottom: 0px;
+}
+
+/* Thumbnail Box */
+#core .caption h4 {
+    color: #444;
+}
+#core .caption p {
+    margin-bottom: 0px;
+}
+
+/* Carousel Control */
+#core .control-box {
+    text-align: right;
+    width: 100%;
+}
+#core .carousel-control{
+    background: #666;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 15px;
+}
+
+
+
+/* Mobile Only */
+@media (max-width: 767px) {
+    .page-header, .control-box {
+        text-align: center;
+    }
+    .caption a{
+      padding-bottom:40px;
+    }
+    #core .thumbnails{
+      align-items: center;
+      margin: auto;
+      text-align: center;
+    }
+}
+@media (max-width: 479px) {
+    .caption {
+        word-break: break-all;
+    }
+}
+
+
+#core li { list-style-type:none;}
+
+::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
+::-moz-selection { background: #ff5e99; color: #FFFFFF; }
+
+
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
@@ -165,6 +305,8 @@ body.dark {
 
 .gallery-block .heading {
   margin-bottom: 50px;
+  align-items: center;
+  margin: auto;
   text-align: center;
 }
 
