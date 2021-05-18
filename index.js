@@ -17,10 +17,3 @@ window.onscroll = function(){
 	let progressHeight = (window.pageYOffset / totalHeight) * 100;
 	progress.style.height = progressHeight + "%";
 }
-
-Carousel Auto-Cycle
-  $(document).ready(function() {
-    $('.carousel').carousel({
-      interval: 6000
-    })
-  });
