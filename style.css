@@ -44,6 +44,7 @@ body {
   background-size: cover;
 }
 
+
 .home-heading-main {
   font-size: 4rem;
   font-weight: bold;
@@ -102,21 +103,21 @@ body.dark {
   background: #000;
 }
 
-#dark-switch .heading {
+#core-team{
   margin-bottom: 50px;
   align-items: center;
   margin: auto;
   text-align: center;
 }
 
-#dark-switch .heading h1 {
+#core-team  h1 {
   font-weight: bold;
   font-size: 2.5rem;
   text-transform: uppercase;
   color:red;
 }
 
-#dark-switch .heading h2 {
+#core-team h2 {
   font-weight: bold;
   font-size: 1.4rem;
   text-transform: uppercase;
@@ -166,7 +167,15 @@ body.dark {
   color: #f39c12;
 }
 
-
+#core-team{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
 
 /*-----------------CORE -------------------------*/
@@ -285,6 +294,17 @@ body.dark {
 ::-moz-selection { background: #ff5e99; color: #FFFFFF; }
 
 
+#team .heading{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
@@ -295,11 +315,9 @@ body.dark {
   font-size: 1rem;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 4rem;
 }
 
 .gallery-block {
-  padding-bottom: 60px;
   padding-top: 10px;
 }
 
@@ -369,7 +387,14 @@ body.dark {
 .section-heading {
   color: red;
 }
-
+#about .text-center{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 2%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
 .about {
   padding: 10px 0 0 0;
@@ -538,7 +563,7 @@ body.dark {
     padding-bottom: 0px;
   }
   .navbar-brand #navlogo{
-    margin-right :50px;
+    margin-right :35px;
   }
   .home{
     padding-top: 50px;
@@ -619,8 +644,14 @@ body.dark {
   color: red;
 }
 
-
-/* End of Team Section*/
+#blog .text-center{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
 
 .ribbon {
   width: 100px;
@@ -663,6 +694,15 @@ body.dark {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact .container .text-center{
+  border-radius: 20px;
+  border-style: solid;
+  border-color: yellow;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
 .contact .info {
   padding: 20px 40px;
   background: #f7e759;
@@ -808,8 +848,4 @@ body.dark {
 .button:hover {
 background-color: white;
 color: black;
-}
-
-#bot{
-  visibility: hidden;
 }
