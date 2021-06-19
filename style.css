@@ -563,7 +563,7 @@ body.dark {
   }
 
   .navbar-brand #navlogo {
-    margin-right: 100px
+    margin-right: 70px
   }
 
   .home {
@@ -590,7 +590,7 @@ body.dark {
 
   #button-text {
     font-size: 15px;
-    width: 30%;
+    width: 35%;
   }
 
   .label {
