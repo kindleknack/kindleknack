@@ -762,6 +762,16 @@ body.dark {
   color: grey
 }
 
+.social-links{
+  margin-right: auto;
+}
+
+@media (max-width:520px) {
+  .social-links{
+  margin-left: 12%;
+  }
+}
+
 .social {
   display: flex;
   width: 250px;
