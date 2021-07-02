@@ -19,16 +19,7 @@ const myDate = new Date();
 var currDay = myDate.getDate();
 const x = 16;
 
-if((x-currDay)>0){
-  currDay = (x-currDay) + 30;
-}
-else if((x-currDay) == 0){
-  currDay = 30;
-}
-else if((x-currDay) < 0){
-  currDay = 30 - (currDay - 16 );
-}
-
+currDay = 16 - currDay;
 currDay = currDay + " Days to go."
 
 $(".btn_01").html(currDay);
