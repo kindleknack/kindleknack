@@ -14,12 +14,3 @@ function startCounter() {
         });
     }
 }
-
-const myDate = new Date();
-var currDay = myDate.getDate();
-const x = 16;
-
-currDay = 16 - currDay;
-currDay = currDay + " Days to go."
-
-$(".btn_01").html(currDay);
