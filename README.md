@@ -6,7 +6,3 @@
 
 ## About Us : 
 KINDLE is a multi-domain club formed in July 2020 with the motto - More the Variety, Better the Society. In our journey so far, we have organized several online competitions and webinars and have built a student community of over 250 members striving to become a better version of themselves.
-
-## Visit our website to know more. [Click Here](https://kindleknack.github.io/kindleknack/) 
-
-#### All the projects are designed/developed/supervised/currently maintained by [Salokya Kumar.](https://github.com/ksalokya) 
